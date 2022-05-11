@@ -9,7 +9,7 @@ SyslogIdentifier=odoo15
 PermissionsStartOnly=true
 User=odoo15
 Group=odoo15
-ExecStart=/usr/bin/python3 /opt/odoo15/odoo/odoo-bin -c /etc/odoo15.conf
+ExecStart=/usr/bin/python3 /opt/odoo15/odoo/odoo-bin -c /etc/odoo/odoo15.conf
 StandardOutput=journal+console
 
 [Install]
